@@ -18,7 +18,7 @@ const tipoCombustivel = 'Etanol';
 const litrosConsumidosEtanol = kmPercorrido / consumoLitroEtanol;
 const litrosConsumidosGasolina = kmPercorrido / consumoLitroGasolina;
 
-if (tipoCombustivel === 'Etanol') {
+if (tipoCombustivel === 'Gasolina') {
 
     const gastoTotal = litrosConsumidosEtanol * precoEtanol;
     console.log(gastoTotal.toFixed(2));
