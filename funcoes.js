@@ -4,7 +4,7 @@ function test(name) {
 }
 
 //usando main para todos os programas
-function main() {
+(function() {
     console.log(test(6));
     console.log(test(9));
     console.log(test(12));
@@ -13,7 +13,7 @@ console.log('-------cálculo do IMC------------');
 
 calcularIMC(80 , 1.76);
 
-}
+})();
 
 function calcularIMC(peso, altura){
     const calculoIMC = peso / Math.pow(altura, 2);
@@ -33,7 +33,4 @@ function calcularIMC(peso, altura){
     
 }
 
-
-
-main();
 
