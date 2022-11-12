@@ -75,3 +75,5 @@ const numero3 = 10;
 if (numero3 >= 10) {
     console.log('Sucesso demais!');
 }
+
+
